@@ -1,0 +1,91 @@
+/* Styling for text */
+.normal-text {
+    font-size: 0.90rem;
+}
+
+.small-text {
+    font-size: 0.80rem;
+}
+
+.no-select {
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+/* Styling for navigation links */
+.nav-link {
+  transition: all 0.3s ease;
+  padding: 10px 15px;
+  font-size: 1rem;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Active state */
+.nav-link.active {
+  font-weight: bold;
+}
+
+/* Media query untuk tampilan mobile kecil */
+@media (max-width: 576px) {
+
+.h1-text-mobile {
+        font-size: 1.4rem;
+}
+
+.normal-text-mobile {
+    font-size: 0.90rem;
+}
+
+.small-text-mobile {
+    font-size: 0.70rem;
+}
+
+.nav-link {
+    font-size: 0.875rem; /* Reduce font size */
+    padding: 8px 12px; /* Adjust padding for mobile */
+    text-align: center; /* Center text on mobile */
+  }
+
+  .nav-link.active {
+    font-size: 1rem; /* Slightly larger font for active links */
+  }
+
+  /* Optional: Adjust the scale effect for mobile */
+  .nav-link:hover {
+    transform: scale(1.05); /* Slightly less scale on mobile */
+  }
+}
+
+/* Media query untuk tampilan mobile Sedang */
+@media (min-width: 577px) and (max-width: 992px) {
+
+.h1-text-mobile {
+        font-size: 1.4rem;
+}
+
+.normal-text-mobile {
+    font-size: 0.80rem;
+}
+
+.small-text-mobile {
+    font-size: 0.70rem;
+}
+
+.nav-link {
+    font-size: 0.875rem; /* Reduce font size */
+    padding: 8px 12px; /* Adjust padding for mobile */
+    text-align: center; /* Center text on mobile */
+  }
+
+  .nav-link.active {
+    font-size: 1rem; /* Slightly larger font for active links */
+  }
+
+  /* Optional: Adjust the scale effect for mobile */
+  .nav-link:hover {
+    transform: scale(1.05); /* Slightly less scale on mobile */
+  }
+}
+
